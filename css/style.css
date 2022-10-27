@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    width: 100px;
+    height: 150px;
+    background-color: blueviolet;
+
+    animation-name: change;
+    animation-duration: 3s;
+    
+    
+}
+
+@keyframes change{
+    0%{ width: 200px; }
+    100%{width: 100%;}
+}
+/* //////////////////////////////////// */
+
+.div2{
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+
+    animation-duration: 3s;
+    animation-name: amer;
+    animation-delay: 3s;
+}
+
+@keyframes amer{
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+/* //////////////////////////////// */
+.div3{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(186, 238, 13);
+
+    animation-duration: 3s;
+    animation-name: amer;
+    animation-delay: 6s;
+}
+
+@keyframes amer{
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+
+/* /////////////////////////////////// */
+
+.div4{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(42, 134, 165);
+
+    animation-duration: 3s;
+    animation-name: amer;
+    animation-delay: 9s;
+}
+
+@keyframes amer{
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+/* /////////////////////////////// */
+
+
+
+
+/* .div6{
+    width: 100px;
+    height: 150px;
+    background-color: aqua;
+
+    animation-duration: 3s;
+    animation-name: dd;
+    
+
+
+}
+@keyframes dd{
+    0%{width: 0%;}
+    100%{width: 100%;}
+} */
+
+/* ///////////////////////////// */
+
+.div5{
+    width: 100px;
+    height: 33px;
+    background-color: black;
+
+    animation-name: ff;
+    animation-duration: 3s;
+    animation-delay: 12s;
+}
+@keyframes ff{
+
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
